@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-class {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.login-bg {
+    background-image: url('../images/userDetails/Bg\ Pattern\ \(1\).svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.accountPayable-bg {
+    background-image: url('../images/userDetails/Bg\ Pattern\ \(1\).svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.procedure-bg {
+    background-image: url('../images/home//Group\ 5411.png');
+
+}
+.ourProduct-bg {
+    background-image: url('../images/userDetails/Bg\ Pattern\ \(1\).svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 777px;
+}
+
+@font-face {
+    font-family: "Nohemi";
+    src: local("Nohemi"),
+        url("../../fonts/Nohemi-Regular-BF6438cc58b98fc.otf") format("truetype"),
+        local("Nohemi"),
+        url("../../fonts/Nohemi-Medium-BF6438cc581a509.otf") format("truetype"),
+        local("Nohemi"),
+        url("../../fonts/Nohemi-SemiBold-BF6438cc588b5e5.otf") format("truetype"),
+        local("Nohemi"),
+        url("../../fonts/Nohemi-Bold-BF6438cc5812315.otf") format("truetype");
+
+    font-weight: 300, 400, 500, 600, 700, 800, 900;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Nohemi', sans-serif;
+}
