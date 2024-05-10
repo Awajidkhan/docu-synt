@@ -80,7 +80,10 @@ const Header = () => {
                 activeText === "Contact" ? "hover:text-[#00D588]" : ""
               }`}
               onMouseEnter={() => handleMouseEnter("Contact")}
-              onClick={() => handleClick("Contact")}
+              onClick={() => {
+                handleClick("Contact");
+                navigate("/contact");
+              }}
             >
               Contact
             </p>
